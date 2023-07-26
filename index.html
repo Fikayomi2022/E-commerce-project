@@ -8,14 +8,123 @@
   
   <title>Frontend Mentor | E-commerce product page</title>
 
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="stylesheet" href="./assets/bootstrap/bootstrap/css/bootstrap.css">
+
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+
 </head>
+
 <body>
 
+  <header class="container d-flex justify-content-between align-items-center py-4">
+
+    <div class="container1 d-flex align-items-center">
+      
+     <div class="logo mb-3"><img src="./images/logo.svg" alt=""></div>
+
+     <div class="navbar mt-2">
+
+      <ul class="d-flex list-style-type-none">
+
+        <li class="ms-4"><a  class="text-decoration-none" href="#">Collections</a></li>
+        <li class="ms-4"><a  class="text-decoration-none" href="#">Men</a></li>
+        <li class="ms-4"><a  class="text-decoration-none" href="#">Women</a></li>
+        <li class="ms-4"><a  class="text-decoration-none" href="#">About</a></li>
+        <li class="ms-4"><a  class="text-decoration-none" href="#">Contact</a></li>
+
+      </ul>
+
+     </div>
+
+    </div>
+
+    <div class="container2 d-flex align-items-center mb-2">
+      <div class="icon me-5"><img src="./images/icon-cart.svg" alt=""></div>
+      <div class="profile"><img src="./images/image-avatar.png" alt=""></div>
+    </div>
+
+
+  </header>
+
+  <hr class="container mb-5 text-secondary">
+
+  <main class="container">
+
+    
+    <div class="row justify-content-evenly mx-4">
+      <div class="cover1 col-md-5">
+        <img src="./images/image-product-1.jpg" alt="">
+      </div>
+
+      <div class="col-md-5">
+        <div class="h-100 p-5">
+          <p>
+            Sneaker Company
+          </p>
+          <h2>
+            Fall Limited Edition Sneakers
+          </h2>
+          <p>
+             These low-profile sneakers are your perfect casual wear companion. Featuring a 
+             durable rubber outer sole, they’ll withstand everything the weather can offer.
+         </p>
+
+         <div class="container3 d-flex ">
+          <p class="me-3">$125.00 <br><span>$250.00</span></p>
+          <p>50%</p>
+         </div>
+
+         <div class="container4 d-flex">
+          <div class="cover2 me-2">
+            <div class="d-flex justify-content-around">
+              <p>-</p>
+              <p>0</p>
+              <p>+</p>
+            </div>
+          </div>
+           
+          <button class="btn btn-outline-primary   " type="button"> <img src="./images/icon-cart.svg" alt="">Add to cart</button>
+         </div>
+
+        </div>
+      </div>
+    </div> 
+
+
+<!-- 
+    
+    <div class="row align-items-md-stretch">
+      <div class="col-md-6">
+        <div class="h-100 p-5 text-bg-dark rounded-3">
+          <h2>Change the background</h2>
+          <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+          <button class="btn btn-outline-light" type="button">Example button</button>
+        </div>
+      </div>
+       -->
+
+
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
   Collections
   Men
   Women
@@ -34,11 +143,15 @@
   $250.00
 
   0
-  Add to cart
+  Add to cart -->
   
+<!--   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
+
+  <script src="./assets/bootstrap/bootstrap/js/bootstrap.bundle.js"></script>
+
 </body>
 </html>

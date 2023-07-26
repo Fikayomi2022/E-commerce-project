@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+
+:root{
+    --primary1: hsl(26, 100%, 55%);
+    --primary2:hsl(25, 100%, 94%);
+    --neutral1: hsl(220, 13%, 13%);
+    --neutral2:hsl(219, 9%, 45%);
+    --neutral3: hsl(220, 14%, 75%);
+    --neutral4: hsl(223, 64%, 98%);
+    --neutral5: hsl(0, 0%, 100%);
+    --neutral6:hsl(0, 0%, 0%);
+    --family:'Kumbh Sans', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: var(--family);
+}
+
+div.cover1 > img{
+    width: 450px;
+    height: 350px;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+}
+
+div.navbar > ul > li{
+    list-style-type:none;
+}
+
+div.navbar > ul > li a{
+    color: var(--neutral2);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+div.profile > img{
+    height: 40px;
+}
+
+div.cover2{
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: var(--neutral4);
+    padding: 9px 0px;
+}
+
+button > img{
+    height: 15px;
+    margin-bottom: 4px;
+    margin-right: 10px;
+}
