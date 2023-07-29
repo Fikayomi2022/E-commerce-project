@@ -55,8 +55,44 @@ div.cover2{
     background-color: var(--neutral4);
     padding: 9px 0px;
 }
+.fs-6   {
+    margin-top: 7px;
+    background-color: #fadcc1;
+    width: 35px;
+    padding: 2px;
+    height: fit-content;
+    border-radius: 5px;
+}
+div.container4 > button{
+    background-color: #ff8800;
+    width: 200px;
+    height: 40px;
+}
+.cover2{
+    align-items: center;
+    height: 40px !important;
+}
+.text{
+    color: #ff8800;
+}
+img.rounded:hover{
+    background-color: aliceblue;
+    background-blend-mode: multiply;
+    border: 2px solid orange;
+}
+div.image > *{
+    height: 90px;
+    width: 90px;
+    border-radius: 10px !important;
+}
+
+div.offcanvas-body > li{
+    list-style-type: none;
+    width: 100%;
+}
 
 button > img{
+    color: white;
     height: 15px;
     margin-bottom: 4px;
     margin-right: 10px;

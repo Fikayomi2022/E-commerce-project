@@ -6,7 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | E-commerce product page</title>
+  <title>E-commerce product page</title>
 
   <link rel="stylesheet" href="./assets/css/style.css">
 
@@ -22,8 +22,22 @@
 </head>
 
 <body>
-
-  <header class="container d-flex justify-content-between align-items-center py-4">
+  
+  <header class="container d-flex justify-content-between align-items-center py-4 <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#Id1" aria-controls="Id1">&#9776;</button>
+  
+  <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="Id1" aria-labelledby="Enable both scrolling & backdrop">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="Enable both scrolling & backdrop">MainMenu</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <li class="text ms-4 p-4"><a  class="text-decoration-none" href="#">Collections</a></li>
+      <li class="ms-4 p-4"><a  class="text-decoration-none" href="#">Men</a></li>
+      <li class="ms-4 p-4"><a  class="text-decoration-none" href="#">Women</a></li>
+      <li class="ms-4 p-4"><a  class="text-decoration-none" href="#">About</a></li>
+      <li class="ms-4 p-4"><a  class="text-decoration-none" href="#">Contact</a></li>
+    </div>
+  </div>">
 
     <div class="container1 d-flex align-items-center">
       
@@ -32,13 +46,11 @@
      <div class="navbar mt-2">
 
       <ul class="d-flex list-style-type-none">
-
-        <li class="ms-4"><a  class="text-decoration-none" href="#">Collections</a></li>
-        <li class="ms-4"><a  class="text-decoration-none" href="#">Men</a></li>
-        <li class="ms-4"><a  class="text-decoration-none" href="#">Women</a></li>
-        <li class="ms-4"><a  class="text-decoration-none" href="#">About</a></li>
-        <li class="ms-4"><a  class="text-decoration-none" href="#">Contact</a></li>
-
+        <li class="text ms-4 p-4"><a  class="text-decoration-none" href="#">Collections</a></li>
+        <li class="ms-4 p-4"><a  class="text-decoration-none" href="#">Men</a></li>
+        <li class="ms-4 p-4"><a  class="text-decoration-none" href="#">Women</a></li>
+        <li class="ms-4 p-4"><a  class="text-decoration-none" href="#">About</a></li>
+        <li class="ms-4 p-4"><a  class="text-decoration-none" href="#">Contact</a></li>
       </ul>
 
      </div>
@@ -57,58 +69,64 @@
 
   <main class="container">
 
-    
-    <div class="row justify-content-evenly mx-4">
-      <div class="cover1 col-md-5">
+          
+    <div class="row d-flex justify-content-evenly mx-4">
+      <div class="cover1 col-lg-5">
         <img src="./images/image-product-1.jpg" alt="">
+        <div class="image d-flex justify-content-between mt-3 p-1">
+          <img class="rounded float-start" src="./images/image-product-1-thumbnail.jpg" alt="">
+          <img class="rounded float-start" src="./images/image-product-2-thumbnail.jpg" alt="">
+          <img class="rounded float-start" src="./images/image-product-3-thumbnail.jpg" alt="">
+          <img class="rounded float-start" src="./images/image-product-4-thumbnail.jpg" alt="">
+        </div>
       </div>
 
-      <div class="col-md-5">
+      <div class="col-lg-5">
         <div class="h-100 p-5">
-          <p>
-            Sneaker Company
+            <p class=" text">
+              SNEAKER COMPANY
+            </p>
+            <h2>
+              Fall Limited Edition Sneakers
+            </h2>
+            <p>
+              These low-profile sneakers are your perfect casual wear companion. Featuring a 
+              durable rubber outer sole, they’ll withstand everything the weather can offer.
           </p>
-          <h2>
-            Fall Limited Edition Sneakers
-          </h2>
-          <p>
-             These low-profile sneakers are your perfect casual wear companion. Featuring a 
-             durable rubber outer sole, they’ll withstand everything the weather can offer.
-         </p>
 
-         <div class="container3 d-flex ">
-          <p class="me-3">$125.00 <br><span>$250.00</span></p>
-          <p>50%</p>
-         </div>
-
-         <div class="container4 d-flex">
-          <div class="cover2 me-2">
-            <div class="d-flex justify-content-around">
-              <p>-</p>
-              <p>0</p>
-              <p>+</p>
-            </div>
+          <div class="container3 d-flex">
+            <p class="me-3 fs-4">$125.00 <br><span class="text-secondary fs-5"><strike>$250.00</strike></span></p>
+            <p class="fs-6 text">50%</p>
+            
           </div>
-           
-          <button class="btn btn-outline-primary   " type="button"> <img src="./images/icon-cart.svg" alt="">Add to cart</button>
-         </div>
+
+          <div class="container4 d-flex">
+            <div class="cover2 me-2 align-items-center ">
+              <div class=" btn1 d-flex justify-content-around">
+                <p class="text">-</p>
+                <p>0</p>
+                <p class="text">+</p>
+              </div>
+            </div>
+            
+            <button class="btn text-light   " type="button"> <img src="./images/icon-cart.svg" alt="">Add to cart</button>
+          </div>
 
         </div>
       </div>
     </div> 
 
 
-<!-- 
-    
-    <div class="row align-items-md-stretch">
-      <div class="col-md-6">
-        <div class="h-100 p-5 text-bg-dark rounded-3">
+    <!-- 
+      <div class="row align-items-md-stretch">
+        <div class="col-md-6">
+          <div class="h-100 p-5 text-bg-dark rounded-3">
           <h2>Change the background</h2>
           <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
           <button class="btn btn-outline-light" type="button">Example button</button>
         </div>
       </div>
-       -->
+    -->
 
 
   </main>
