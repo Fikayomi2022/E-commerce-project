@@ -39,7 +39,9 @@ div.nextpage > img{
     object-fit: contain;
     object-position: center;
 }
-
+div.navbar > ul{
+    position: absolute;
+}
 div.navbar > ul > li{
     list-style-type:none;
 }
@@ -48,10 +50,11 @@ div.navbar > ul > li a{
     color: var(--neutral2);
     font-size: 16px;
     font-weight: 400;
+    position: relative;
     transition: 0.5s;
 }
 div.navbar > ul > li a:hover{
-    font-size: 20px;
+    font-size: 1.12rem;
 }
 
 
