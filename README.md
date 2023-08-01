@@ -11,8 +11,10 @@ Thanks for checking out this front-end coding challenge.
 **To do this challenge, you need a good understanding of HTML, CSS and JavaScript.**
 
 ### Collaborator
+
 1. [Orelo-Carter](https://github.com/orelo-carter)
 2. [Code Warlock](https://github.com/code-warlock)
+3. [Fikayomi2022](https://github.com/fikayomi2022)
 
 ## The challenge
 

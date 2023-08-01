@@ -27,10 +27,16 @@ body{
 }
 
 div.cover1 > img{
-    width: 450px;
+    max-width: 500px;
     height: 350px;
     border-radius: 20px;
     object-fit: cover;
+    object-position: center;
+    text-align: center;
+}
+
+div.nextpage > img{
+    object-fit: contain;
     object-position: center;
 }
 
@@ -42,7 +48,12 @@ div.navbar > ul > li a{
     color: var(--neutral2);
     font-size: 16px;
     font-weight: 400;
+    transition: 0.5s;
 }
+div.navbar > ul > li a:hover{
+    font-size: 20px;
+}
+
 
 div.profile > img{
     height: 40px;
@@ -55,7 +66,8 @@ div.cover2{
     background-color: var(--neutral4);
     padding: 9px 0px;
 }
-.fs-6   {
+
+.fs-6{
     margin-top: 7px;
     background-color: #fadcc1;
     width: 35px;
@@ -63,10 +75,20 @@ div.cover2{
     height: fit-content;
     border-radius: 5px;
 }
-div.container4 > button{
+div.submit{
     background-color: #ff8800;
+    height: 35px;
     width: 200px;
-    height: 40px;
+    border-radius: 7px;
+}
+div.submit:hover{
+    color: #ff8800;
+    background-color: var(--neutral4);
+}
+
+div.submit > img{
+    height: 20px;
+    width: 20px;
 }
 .cover2{
     align-items: center;
@@ -79,7 +101,7 @@ img.rounded:hover{
     background-color: aliceblue;
     background-blend-mode: multiply;
     border: 2px solid orange;
-}
+} 
 div.image > *{
     height: 90px;
     width: 90px;
@@ -91,9 +113,15 @@ div.offcanvas-body > li{
     width: 100%;
 }
 
-button > img{
+nav a{
+    margin-top: 20px;
     color: white;
-    height: 15px;
-    margin-bottom: 4px;
-    margin-right: 10px;
+}
+
+
+
+
+div.offcanvas{
+    backdrop-filter: blur(25px);
+    background-color:transparent;
 }
